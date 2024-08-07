@@ -29,4 +29,12 @@ The current functions provide doc strings that explain the functions arguments a
 
 ### Examples
 
-There are some example files in the base directory when the project is installed. These examples can help you get started with usage of the code 
+There are some example files in the base directory when the project is installed. These examples can help you get started with usage of the code.
+
+Current Examples:
+
+- `example_change_control_parameter.py` - demonstrates how to change the control parameters of the device with the library.
+- `example_daq.py` - shows how to use a Measurement Computing device with the code and read values from it.
+- `example_real_time.py` - shows how to read the real time values of the device.
+- `example_straming.py` - shows how to stream data from the devices.
+- `example_streaming_2.py` - shows how to stream data from the devices using the `stream_data` method and explains the various arguments the function has.
