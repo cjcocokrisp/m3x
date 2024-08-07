@@ -25,8 +25,7 @@ from myopro import Device
 
 ### Documentation
 
-For more documentation on the library check out the wiki page for the library.
-https://github.com/cjcocokrisp/m3x/wiki/Myopro-Library
+The current functions provide doc strings that explain the functions arguments and usage. More detailed docs are currently being developed.
 
 ### Examples
 
