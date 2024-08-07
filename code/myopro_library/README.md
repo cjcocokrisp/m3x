@@ -1,2 +1,33 @@
 ## Myopro Library
-Under Construction!
+### Overview
+
+The purpose of this library is to provide a wrapper class to interact with Myopro 2 device. The class provides methods to stream and read data, change the device's control parameters, and run other commands that have not been implemented through functions. 
+
+The library also allows for communication with Measurement Computing devices to be used with the Myopro 2 to collect extra information through the `mcculw` library.
+
+### Installation
+
+Installing this library is simple. Just download the code from this directory as a zip and then place the `myopro` folder in your project. 
+
+There also are a few dependencies for the library being [`pyserial`](https://pypi.org/project/pyserial/) and [`mcculw`](https://github.com/mccdaq/mcculw). You can install them manually or use the `requirements.txt` file in the following manner.
+```
+pip install -r requirements.txt
+```
+
+### Usage 
+
+To use the wrapper import the class by doing the following.
+```
+import myopro 
+# or
+from myopro import Device
+```
+
+### Documentation
+
+For more documentation on the library check out the wiki page for the library.
+https://github.com/cjcocokrisp/m3x/wiki/Myopro-Library
+
+### Examples
+
+There are some example files in the base directory when the project is installed. These examples can help you get started with usage of the code 
